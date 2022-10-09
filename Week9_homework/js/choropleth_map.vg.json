@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/N3K0521/FIT3179/Week9_homework/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/N3K0521/Week9_Homework/main/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/N3K0521/FIT3179/Week9_homework/data/Tokyo_2021_dataset.csv"
+          "url": "https://raw.githubusercontent.com/N3K0521/Week9_Homework/main/data/Tokyo_2021_dataset.csv"
         },
         "key": "Country",
         "fields": ["Gold"]
