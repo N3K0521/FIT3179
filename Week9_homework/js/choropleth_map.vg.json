@@ -19,7 +19,7 @@
         "fields": ["Gold"]
       }
     },
-    {"calculate": "datum.Gold + 0.1", "as": "Gold"}
+    {"calculate": "datum.Gold / 1 + 0.1", "as": "Gold"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
